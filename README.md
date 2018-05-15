@@ -8,3 +8,4 @@ a webapp that generates wordcloud pictures
     pip3 install wordcloud
 4. locate to your directory and run:<br>
     python3 run.py
+5. access http://localhost:5000 with your web browser
