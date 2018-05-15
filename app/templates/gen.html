@@ -1,0 +1,14 @@
+{% extends "basewc.html" %}
+{% block content %}
+<div class="content">
+    <div class="col-md-3">
+        <h3>原图</h3>
+        <img src="{{pic_name}}" style="width: 300px">
+    </div>
+
+    <div class="col-md-3">
+        <h3>生成</h3>
+        <img src="{{gen_pic_name}}" style="width: 300px">
+    </div>
+</div>
+{% endblock %}
