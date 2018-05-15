@@ -1,7 +1,7 @@
 # wordcloud_webapp
 a webapp that generates wordcloud pictures
 
-1. install python3 environment
+1. install python3 and python3-tk environment
 2. install flask framework:<br> 
     pip3 install flask
 3. install wordcloud:<br>
