@@ -13,7 +13,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 def gen_pic_file(cache_dir, word, pic_file, gen_pic_file_name):
     # 读文本文件
-    if word is None:
+    if not word.strip():
         text = open().read('app/templates/1.txt')
     else:
         text = word
